@@ -6,6 +6,7 @@ stages:
     params:
     - epochs
     - log_file
+    - dense
     outs:
     - logs
     - plots.csv:
