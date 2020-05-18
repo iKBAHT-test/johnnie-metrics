@@ -5,13 +5,13 @@ trainme:
     md5: 5febbef14389ebcfc3e501fa1091adcb
   params:
     params.yaml:
-      dense: 1024
+      dense: 512
       epochs: 5
       log_file: plots.csv
   outs:
   - path: logs
-    md5: 9b21c6fa4e98cf89e896c13df525de2a.dir
+    md5: 52a6e6a3af83f1bd127a249cec82d9fb.dir
   - path: plots.csv
-    md5: 40a124023dda3b43116384814aa376c0
+    md5: 6123fe5bec7d0f489242784f8b988c02
   - path: summary.json
-    md5: 19f957370ea2e25623ed8ede85d90453
+    md5: d22507b4d4bfc41d8339ce5003343e86
