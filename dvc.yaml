@@ -1,0 +1,16 @@
+stages:
+  trainme:
+    cmd: python train.py
+    deps:
+    - users.csv
+    params:
+    - epochs
+    - log_file
+    outs:
+    - logs
+    - plots.csv:
+        cache: false
+        metric: true
+    - summary.json:
+        cache: false
+        metric: true
